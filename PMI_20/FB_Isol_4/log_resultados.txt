@@ -1,0 +1,25 @@
+==== RESULTADOS DO EXAME ====
+Porco: 20 | Exame: FB_Isol_4
+-----------------------------------------------------
+MÉTRICAS 1D:
+NRMSE:                 0.6467
+Correlação de Pearson: 0.9674
+-----------------------------------------------------
+MÉTRICAS 2D (MÉTODO XU/GAO):
+V/Q Match Global:      85.54%
+Shunt Global:           0.80%
+Deadspace Global:      13.65%
+Shunt Dorsal (Grav.):   0.00%
+-----------------------------------------------------
+BLAND-ALTMAN E CORRELAÇÃO 2D:
+Correlação Spearman:   0.9713
+Correlação Pearson:    0.9618
+Viés Médio:             0.00%
+Limites 95%:           -0.11% a  0.11%
+-----------------------------------------------------
+COMPARAÇÃO REGIONAL (4 QUADRANTES):
+Região           | Modelo Dataset | Nosso Filtro | Diferença
+Ventral Direito  |     41.23%    |    35.70%   |    5.53%
+Ventral Esquerdo |     36.47%    |    43.03%   |    6.57%
+Dorsal Direito   |     16.19%    |    14.49%   |    1.70%
+Dorsal Esquerdo  |      6.11%    |     6.77%   |    0.66%
